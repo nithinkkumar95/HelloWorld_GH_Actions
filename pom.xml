@@ -19,7 +19,7 @@
     <repository>
         <id>hello-world-gh</id>
         <name>hello-world-gh-libs-snapshot</name>
-        <url>http://13.233.99.19:8082/artifactory/hello-world-gh-libs-snapshot/</url>
+        <url>http://13.233.99.19:8081/artifactory/hello-world-gh-libs-snapshot</url>
     </repository>
 </distributionManagement>
          
