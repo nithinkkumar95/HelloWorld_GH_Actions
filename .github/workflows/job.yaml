@@ -17,7 +17,7 @@ on:
         default: 'false'
 
 jobs:
-  # Parallel Job: Build and Test on Self-Hosted EC2 (with Tomcat installed )
+   # Parallel Job: Build and Test on Self-Hosted EC2 (with Tomcat installed )
   build_and_test:
     # This job will run  on a self-hosted runner with the "staging" label.
     # Ensure your self-hosted runner for staging has the label `staging` assigned to it.
