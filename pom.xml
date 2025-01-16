@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>my-helloworld</artifactId>
-    <version>1.0.${env.GITHUB_RUN_NUMBER}</version>
+    <version>1.0-snapshot</version>
     <packaging>war</packaging>
 
      <properties>
@@ -18,8 +18,8 @@
 <distributionManagement>
     <repository>
         <id>hello-world-gh</id>
-        <name>hello-world-gh-libs-release</name>
-        <url>http://13.233.99.19:8081/artifactory/hello-world-gh-libs-release</url>
+        <name>hello-world-gh-libs-snapshot</name>
+        <url>http://13.233.99.19:8082/artifactory/hello-world-gh-libs-snapshot/</url>
     </repository>
 </distributionManagement>
          
